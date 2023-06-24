@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MarinaChrn/node-hm-1/issues"
   },
-  "homepage": "https://github.com/MarinaChrn/node-hm-1#readme"
+  "homepage": "https://github.com/MarinaChrn/node-hm-1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
